@@ -21,9 +21,13 @@ public class StatisticsHelper
         return values.Max();
     }
     
-    public static int CalculateMin(int[] values)
+    public static int CalculateMin(int[] values)`. 
     {
-        return values.Min();
+        if (values == null || values.Length == 0)
+        {
+            throw new ArgumentException("Array cannot be empty");
+        }
+        return values.Max();
     }
     
 }

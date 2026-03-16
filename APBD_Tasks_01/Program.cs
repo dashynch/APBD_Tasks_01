@@ -17,7 +17,5 @@ public class Program
 		Console.WriteLine($"The minimum is: {min}");
 
     }
-
- 
 }
 

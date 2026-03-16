@@ -7,12 +7,11 @@ public class Program
 
         List<int> valuesList = new List<int>() { 1, 2, 3, 4, 5, 6, };
 
-        valuesList.ForEach(x => Console.WriteLine(x + 1));
+        double average = CalculateAverage(valuesList);
+		Console.WriteLine($"The average is: {average}");
+
     }
 
-    public static double CalculateAverage(List<int> values)
-    {
-        return values.Average();
-    }
+ 
 }
 

@@ -12,7 +12,7 @@ public class StatisticsHelper
         return values.Average();
     }
     
-    public static int MaxValue(int[] values)
+    public static int CalculateMax(int[] values)
     {
         if (values == null || values.Length == 0)
         {
@@ -20,4 +20,6 @@ public class StatisticsHelper
         }
         return values.Max();
     }
+    
+    
 }

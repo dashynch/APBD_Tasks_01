@@ -8,7 +8,7 @@ public class Program
         List<int> valuesList = new List<int>() { 1, 2, 3, 4, 5, 6, };
 
         double average = CalculateAverage(valuesList);
-		Console.WriteLine($"The average is: {average}");
+		Console.WriteLine($"The AVERAGE is: {average}");
 
 		double max = CalculateMax(valuesList);
 		Console.WriteLine($"The maximum is: {max}");

@@ -2,6 +2,7 @@ namespace APBD_Tasks_01;
 
 public class StatisticsHelper
 {
+    //Method to calculate Average
     public static double CalculateAverage(int[] values)
     {
         if (values == null || values.length == 0)

@@ -4,9 +4,9 @@ public class StatisticsHelper
 {
     public static double CalculateAverage(int[] values)
     {
-        if (values == null || values.Count == 0)
+        if (values == null || values.length == 0)
         {
-            throw new ArgumentException("List cannot be empty");
+            throw new ArgumentException("Array cannot be empty");
         }
         return values.Average();
     }

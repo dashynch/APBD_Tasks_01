@@ -10,6 +10,9 @@ public class Program
         double average = CalculateAverage(valuesList);
 		Console.WriteLine($"The average is: {average}");
 
+		double max = MaxValue(valuesList);
+		Console.WriteLine($"The maximum is: {max}");
+
     }
 
  

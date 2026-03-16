@@ -11,4 +11,13 @@ public class StatisticsHelper
         }
         return values.Average();
     }
+    
+    public static int MaxValue(int[] values)
+    {
+        if (values == null || values.Length == 0)
+        {
+            throw new ArgumentException("Array cannot be empty");
+        }
+        return values.Max();
+    }
 }

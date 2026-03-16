@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APBD_Tas1", "APBD_Task1.csproj", "{CB0A8F24-B78C-410E-BED9-3C2C9FAEE0CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APBD_Tasks_01", "APBD_Tasks_01.csproj", "{CB0A8F24-B78C-410E-BED9-3C2C9FAEE0CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

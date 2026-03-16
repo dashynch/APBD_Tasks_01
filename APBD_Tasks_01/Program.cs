@@ -1,4 +1,4 @@
-namespace APBD_Task1; 
+namespace APBD_Tasks_01; 
 public class Program 
 { 
     public static void Main(string[] args) 

@@ -8,10 +8,11 @@ Since the histories diverged, Git had to create a merge commit to bring everythi
 
 Rebase task
 
-Merge: It's like taking two different roads and joining them at a crossroad.
-       It keeps the "diamond" shape in history to show exactly where the work was done.
+Merge: It keeps the real history. You can see exactly where the branch started and where it joined back. 
+       It looks like a "fork" or a loop in the graph.
 
-Rebase: It's like moving your road so it starts exactly where the main road ends. 
-        It makes the history a single straight line, as if you never left the main path.
+Rebase: It's a way to keep the history clean. 
+        Git takes the commits from my branch and moves them to the very end of the main branch.
 
-The conflict was resolved manually by opening the file, removing the Git conflict markers and choosing a final version of the code
+I got a conflict because I changed the same line of code in two different branches.
+To fix it, I opened Program.cs, found the markers and manually deleted the version I didn't need.

@@ -7,3 +7,8 @@ Task 5: This merge was not fast-forward because I made independent
 
 
 Rebase task
+Merge: It's like taking two different roads and joining them at a crossroad.
+       It keeps the "diamond" shape in history to show exactly where the work was done.
+
+Rebase: It's like moving your road so it starts exactly where the main road ends. 
+        It makes the history a single straight line, as if you never left the main path.

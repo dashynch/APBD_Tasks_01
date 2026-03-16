@@ -27,7 +27,7 @@ public class StatisticsHelper
         {
             throw new ArgumentException("Array cannot be empty");
         }
-        return values.Max();
+        return values.Min();
     }
     
 }

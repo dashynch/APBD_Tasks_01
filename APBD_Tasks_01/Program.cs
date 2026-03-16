@@ -13,6 +13,9 @@ public class Program
 		double max = CalculateMax(valuesList);
 		Console.WriteLine($"The maximum is: {max}");
 
+		double min = CalculateMin(valuesList);
+		Console.WriteLine($"The minimum is: {min}");
+
     }
 
  
